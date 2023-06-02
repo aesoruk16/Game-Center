@@ -53,8 +53,6 @@ const GameDetail = item => {
           {item.title}
         </Text>
       </View>
-
-     
       <WebView
         source={{uri: item.game_url}}
         style={{flex: 1}}
